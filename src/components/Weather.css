@@ -1,0 +1,46 @@
+
+.container{
+    background: #E8edf0;
+    position: absolute;
+    height : 200px;
+    width : 200px;
+    margin:  auto;
+}
+
+#appContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#weatherImage{
+    width: 120px;
+    height: 80px;
+}
+#imgRow{
+    text-align: right;
+}
+
+#tempRow{
+    text-align: right;
+}
+
+.bigText{
+    font-family: "Arial Narrow";
+    color: #1F6E86;
+    font-size: 60px;
+}
+
+.regularText{
+    font-family: "Arial Narrow";
+    color: #1F6E86;
+    font-size:15px;
+}
+
+#humidityRow, #locationRow{
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#imgRow, #tempRow{
+    margin-right : 10px;
+}
