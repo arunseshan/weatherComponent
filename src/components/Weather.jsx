@@ -3,7 +3,7 @@ import {Grid, Row} from 'react-bootstrap';
 
 import './Weather.css';
 
-const weatherApiKey='bf2dd8bc49ed6a27';
+const weatherApiKey='XXXXXXXXX';
 var lat=0;
 var lon=0;
 var url = '';
@@ -61,6 +61,7 @@ export default class Weather extends Component {
     this.getLocation();
   }
 
+  //render method
   render() {
     return (
       <div id="appContainer">
@@ -84,23 +85,3 @@ export default class Weather extends Component {
     )
   }
 }
-
-
-//style={{border: "1px solid brown"}}
-
-
-// constructor(props){
-//   super(props);
-
-//   this.state={
-//     latitude : 0,
-//     longitude : 0,
-//     country : '',
-//     city :'',
-//     current_weather_c : '',
-//     current_weather_f : '',
-//     relative_humidity : '',
-//     feelslike_c : '',
-//     icon_url : ''
-//   }
-// }
